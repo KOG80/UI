@@ -477,7 +477,7 @@ local defaults; do
             
             local check = library:Create('Frame', {
                 Name = 'Spacer';
-                BackgroundTransparency = 1;
+                BackgroundTransparency = 0;
                 Size = determinedSize;
                 BackgroundColor3 = library.options.sectncolor;
                 BorderSizePixel = 0;
