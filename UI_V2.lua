@@ -479,7 +479,7 @@ local defaults; do
                 Name = 'Spacer';
                 BackgroundTransparency = 1;
                 Size = determinedSize;
-                BackgroundColor3 = library.options.sectncolor;
+                BackgroundColor3 = library.options.bgcolor;
                 BorderSizePixel = 0;
                 LayoutOrder = order;
                 library:Create('TextLabel', {
@@ -487,7 +487,7 @@ local defaults; do
                     Text = name;
                     BackgroundTransparency = 0;
                     BorderSizePixel = 0;
-                    BackgroundColor3 = library.options.sectncolor;
+                    BackgroundColor3 = library.options.bgcolor;
                     TextColor3 = library.options.textcolor;
                     Position = determinedPos;
                     Size     = (secondarySize or UDim2.new(1, 0, 1, 0));
@@ -526,7 +526,7 @@ local defaults; do
                     Text = name;
                     BackgroundTransparency = 0;
                     BorderSizePixel = 0;
-                    BackgroundColor3 = library.options.bgcolor;
+                    BackgroundColor3 = library.options.sectncolor;
                     TextColor3 = library.options.textcolor;
                     Position = determinedPos;
                     Size     = (secondarySize or UDim2.new(1, 0, 1, 0));
