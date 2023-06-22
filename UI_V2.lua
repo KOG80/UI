@@ -1011,7 +1011,7 @@ local defaults; do
         dropcolor      = Color3.fromRGB(25, 25, 25);
         sectncolor     = Color3.fromRGB(25, 25, 25);
 
-        bordercolor    = Color3.fromRGB(255, 60, 60);
+        bordercolor    = Color3.fromRGB(168, 218, 255);
 
         font           = Enum.Font.SourceSans;
         titlefont      = Enum.Font.Code;
