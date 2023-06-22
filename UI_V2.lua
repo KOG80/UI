@@ -1004,9 +1004,9 @@ local defaults; do
         topcolor       = Color3.fromRGB(30, 30, 30);
         titlecolor     = Color3.fromRGB(255, 255, 255);
         
-        underlinecolor = Color3.fromRGB(0, 255, 140);
+        underlinecolor = Color3.fromRGB(168, 218, 255);
         bgcolor        = Color3.fromRGB(70, 70, 70);
-        boxcolor       = Color3.fromRGB(70, 70, 70);
+        boxcolor       = Color3.fromRGB(40, 40, 40);
         btncolor       = Color3.fromRGB(25, 25, 25);
         dropcolor      = Color3.fromRGB(25, 25, 25);
         sectncolor     = Color3.fromRGB(25, 25, 25);
@@ -1016,18 +1016,18 @@ local defaults; do
         font           = Enum.Font.SourceSans;
         titlefont      = Enum.Font.Code;
 
-        fontsize       = 17;
-        titlesize      = 18;
+        fontsize       = 14;
+        titlesize      = 15;
 
         textstroke     = 1;
         titlestroke    = 1;
 
         strokecolor    = Color3.fromRGB(0, 0, 0);
 
-        textcolor      = Color3.fromRGB(255, 255, 255);
-        titletextcolor = Color3.fromRGB(255, 255, 255);
+        textcolor      = Color3.fromRGB(240, 240, 240);
+        titletextcolor = Color3.fromRGB(240, 240, 240);
 
-        placeholdercolor = Color3.fromRGB(255, 255, 255);
+        placeholdercolor = Color3.fromRGB(240, 240, 240);
         titlestrokecolor = Color3.fromRGB(0, 0, 0);
     }
 	
