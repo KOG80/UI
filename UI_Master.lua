@@ -201,7 +201,7 @@ function library:Init(parent)
 		local titlebar = Button(tabtitle)
 		titlebar.Size = UDim2.new(1,0,0,40)
 		titlebar.Font = Enum.Font.SourceSansBold
-		titlebar.TextSize = 18
+		titlebar.TextSize = 14
 		titlebar.TextColor3 = libraryColours.White
 		titlebar.Parent = mainlabel
 		
