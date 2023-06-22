@@ -477,7 +477,7 @@ local defaults; do
             
             local check = library:Create('Frame', {
                 Name = 'Spacer';
-                BackgroundTransparency = 0;
+                BackgroundTransparency = 1;
                 Size = determinedSize;
                 BackgroundColor3 = library.options.sectncolor;
                 BorderSizePixel = 0;
@@ -526,7 +526,7 @@ local defaults; do
                     Text = name;
                     BackgroundTransparency = 0;
                     BorderSizePixel = 0;
-                    BackgroundColor3 = library.options.sectncolor;
+                    BackgroundColor3 = library.options.bgcolor;
                     TextColor3 = library.options.textcolor;
                     Position = determinedPos;
                     Size     = (secondarySize or UDim2.new(1, 0, 1, 0));
@@ -1005,11 +1005,12 @@ local defaults; do
         titlecolor     = Color3.fromRGB(255, 255, 255);
         
         underlinecolor = Color3.fromRGB(0, 255, 140);
-        bgcolor        = Color3.fromRGB(35, 35, 35);
-        boxcolor       = Color3.fromRGB(35, 35, 35);
+        bgcolor        = Color3.fromRGB(70, 70, 70);
+        boxcolor       = Color3.fromRGB(70, 70, 70);
         btncolor       = Color3.fromRGB(25, 25, 25);
         dropcolor      = Color3.fromRGB(25, 25, 25);
         sectncolor     = Color3.fromRGB(25, 25, 25);
+
         bordercolor    = Color3.fromRGB(60, 60, 60);
 
         font           = Enum.Font.SourceSans;
