@@ -201,7 +201,7 @@ function library:Init(parent)
 		local titlebar = Button(tabtitle)
 		titlebar.Size = UDim2.new(1,0,0,40)
 		titlebar.Font = Enum.Font.SourceSansBold
-		titlebar.TextSize = 14
+		titlebar.TextSize = 15
 		titlebar.TextColor3 = libraryColours.White
 		titlebar.Parent = mainlabel
 		
@@ -284,7 +284,7 @@ function library:Init(parent)
 			sectiontitle.Size = UDim2.new(1,0,0,28)
 			sectiontitle.Font = Enum.Font.GothamBlack
 			sectiontitle.TextColor3 = libraryColours.OffWhite
-			sectiontitle.TextSize = 14
+			sectiontitle.TextSize = 13
 			sectiontitle.TextXAlignment = Left
 			sectiontitle.Parent = sectionframe
 			
@@ -348,7 +348,7 @@ function library:Init(parent)
 				buttonlabel.Font = Enum.Font.SourceSansBold
 				buttonlabel.Text = text or "Button"
 				buttonlabel.TextColor3 = libraryColours.Black
-				buttonlabel.TextSize = 18
+				buttonlabel.TextSize = 15
 				buttonlabel.Parent = imagebutton
 				
 				imagebutton.MouseButton1Click:Connect(function()
@@ -374,7 +374,7 @@ function library:Init(parent)
 				slidertitle.TextColor3 = libraryColours.Text
 				slidertitle.Text = ("  ".. text)
 				slidertitle.TextXAlignment = Left
-				slidertitle.TextSize = 16
+				slidertitle.TextSize = 13
 				slidertitle.Parent = slidercontainer
 				
 				local valuecontainer = RoundBox()
@@ -460,7 +460,7 @@ function library:Init(parent)
 				
 				local keybindlabel = Button("  "..text)
 				keybindlabel.TextColor3 = libraryColours.Text
-				keybindlabel.TextSize = 16
+				keybindlabel.TextSize = 13
 				keybindlabel.Font = Enum.Font.SourceSansBold
 				keybindlabel.TextXAlignment = Left
 				keybindlabel.Size = UDim2.new(1,-30,0,28)
